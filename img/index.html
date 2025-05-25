@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Safelink</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+  <div class="container">
+    <a href="index.html">
+      <img src="img/logo.png" alt="Safelink" class="logo" />
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#solucoes">Soluções</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="https://cloud.fullcam.me" target="_blank">Área do Cliente</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <section class="banner">
+    <div class="container">
+      <h1></h1>
+      <p></p>
+      <a href="#contato" class="btn">Saiba Mais</a>
+    </div>
+  </section>
+
+  <section id="solucoes" class="solucoes">
+    <div class="container">
+      <h2>Nossas Soluções</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="img/solucao1.png" alt="Solução 1" />
+          <h3>Monitoramento com IA</h3>
+          <p>Proteção inteligente.</p>
+          <a href="monitoramento-ia.html" target="_blank" class="btn-card">Saiba Mais</a>
+        </div>
+        <div class="card">
+          <img src="img/solucao2.png" alt="Solução 2" />
+          <h3>Gravação na Nuvem</h3>
+          <p>Acesse imagens de qualquer lugar.</p>
+          <a href="gravacao-nuvem.html" target="_blank" class="btn-card">Saiba Mais</a>
+        </div>
+        <div class="card">
+          <img src="img/solucao3.png" alt="Solução 3" />
+          <h3>Leitura de Placas</h3>
+          <p>Automatize o controle de acesso.</p>
+          <a href="lpr.html" target="_blank" class="btn-card">Saiba Mais</a>
+        </div>
+        <div class="card">
+          <img src="img/solucao4.png" alt="Solução 1" />
+          <h3>Vizinhaça Colaborativa</h3>
+          <p>Proteção inteligente.</p>
+          <a href="vizinhaca-colaborativa.html" target="_blank" class="btn-card">Saiba Mais</a>
+        </div>
+        <div class="card">
+          <img src="img/solucao5.png" alt="Solução 1" />
+          <h3>Condominio Seguro</h3>
+          <p>Proteção inteligente.</p>
+          <a href="condominio-seguro.html" target="_blank" class="btn-card">Saiba Mais</a>
+        </div>
+        <div class="card">
+          <img src="img/solucao6.png" alt="Solução 1" />
+          <h3>Escola 3.0</h3>
+          <p>A proteção de quem mais voce ama.</p>
+          <a href="escola-3.0.html" target="_blank" class="btn-card">Saiba Mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <<section class="sobre">
+  <div class="container">
+    <h2>Quem Somos</h2>
+    <p>
+      A <strong>Safelink</strong> é especialista em soluções inteligentes para segurança eletrônica. 
+      Com anos de experiência, transformamos a forma como empresas e residências protegem seus espaços, 
+      integrando tecnologia de ponta com inteligência artificial.
+    </p>
+    <p>
+      Nosso compromisso é garantir tranquilidade, eficiência e inovação para nossos clientes. 
+      Estamos sempre evoluindo para oferecer o que há de mais moderno em monitoramento, 
+      gravação em nuvem e reconhecimento de placas.
+    </p>
+    <a href="#contato" class="btn-sobre">Fale Conosco</a>
+  </div>
+</section>
+
+
+  <section class="estatisticas">
+  <div class="container">
+    <div class="stats">
+      <div>
+        <h3 data-target="+640">0</h3>
+        <p>Clientes Atendidos</p>
+      </div>
+      <div>
+        <h3 data-target="1200">0</h3>
+        <p>Câmeras Instaladas</p>
+      </div>
+      <div>
+        <h3 data-target="12">0</h3>
+        <p>Anos de Experiência</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section class="contato" id="contato">
+  <div class="container">
+    <h2>Fale Conosco</h2>
+    <form id="formContato" action="https://formsubmit.co/seu-email@exemplo.com" method="POST">
+      <input type="text" name="name" placeholder="Seu nome" required />
+      <input type="email" name="email" placeholder="Seu email" required />
+      <input type="tel" name="phone" placeholder="Seu telefone" />
+      <textarea name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+      <!-- campo anti-spam invisível -->
+      <input type="text" name="_honey" style="display:none" />
+      <!-- redirecionamento após envio -->
+      <input type="hidden" name="_next" value="https://seusite.com/obrigado.html" />
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </div>
+</section>
+
+
+  
+
+<footer>
+  <div class="container footer-content">
+    <div class="footer-logo">
+      <img src="img/logo.png" alt="Safelink Logo" />
+    </div>
+
+    <div class="footer-sections-wrapper">
+      <div class="footer-section">
+        <h4>Nossas Soluções</h4>
+        <ul>
+          <li><a href="monitoramento-ia.html" target="_blank" rel="noopener">Monitoramento IA</a></li>
+          <li><a href="lpr.html" target="_blank" rel="noopener">LPR (Leitura de Placas)</a></li>
+          <li><a href="gravacao-nuvem.html" target="_blank" rel="noopener">Gravação na Nuvem</a></li>
+          <li><a href="vizinhaca-colaborativa.html" target="_blank" rel="noopener">Vizinhaça Colaborativa</a></li>
+          <li><a href="condominio-seguro.html" target="_blank" rel="noopener">Condominio Seguro</a></li>
+          <li><a href="escola-3.0.html" target="_blank" rel="noopener">Escola 3.0</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Institucional</h4>
+        <ul>
+          <li><a href="https://wa.me/5511988120033" target="_blank" rel="noopener">Sobre Nós</a></li>
+          <li><a href="https://wa.me/5511988120033" target="_blank" rel="noopener">Contato</a></li>
+          <li><a href="https://wa.me/5511988120033" target="_blank" rel="noopener">Política de Privacidade</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Fale Conosco</h4>
+        <p>Av Cora Coralina, 140 - Goiania-GO</p>
+        <p>Telefone: (11) 98812-0033</p>
+        <p>Email: contato@safelinkbrasil.com.br</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<footer>
+    <div class="container">
+      <p>&copy; 2025 Safelink. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+<a href="https://wa.me/5511988120033" target="_blank" class="whatsapp-float">
+  <img src="img/whatsapp-icon.png" alt="WhatsApp" />
+</a>
+<script src="js/script.js"></script>
+
+</body>
+</html>
